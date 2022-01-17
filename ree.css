@@ -1,0 +1,13 @@
+<script type='text/javascript'>
+    $(document).ready(function() {
+        $('img#closed').click(function() {
+            $('#btm_banner').hide(90);
+        });
+
+        $('<p style="text-align: center; justify-content:center; "><span style="color: white; text-shadow: 0px 0px 10px #777777, 0px 0px 20px #777777; font-size: 14px;">Silakan klik icon sosmed dibawah ini untuk hubungi operator :</span></p><div style=" margin-bottom:5px; display:flex; justify-content: center; "><a href="https://www.instagram.com/cs.zientoto/" target="_blank"><img src="https://i.imgur.com/W1HpWEf.png" alt="Instagram zientoto" width="100%" style="display: block; padding:4px 5px 4px 20px;margin-left: auto; margin-right:auto;"></a><a href="https://www.facebook.com/zientoto88" target="_blank"><img src="https://i.imgur.com/J9aFubj.png" alt="Facebook zientoto" height="100%" width="100%" style="display: block;padding:4px 20px 4px 5px; margin-left: auto; margin-right:auto;"></a></div></span></p>').insertBefore($('.inner-wrap'));
+
+        $('<div style="display:flex; justify-content:center; "><a href="https://twitter.com/zientoto" target="_blank"><img src="https://i.imgur.com/2sN123K.png" alt="Twiter zientoto" height="100%" width="100%" style="display: block; padding:4px 5px 4px 20px;margin-left: auto; margin-right:auto;"></a><a href="https://www.youtube.com/c/ZIENTOTO" target="_blank"><img src="https://i.imgur.com/JISl5eG.png" alt="Youtube zientoto" height="100%" width="100%" style="display: block; padding:4px 20px 4px 5px;margin-left: auto; margin-right:auto;"></a></div></span></p>').insertBefore($('.inner-wrap'));
+
+        $('<center><h2 style="font-size: 25px;"><a style="color: #E19E18;" title="Situs Judi Togel Online Terpercaya">Situs Judi Togel Online Terpercaya</a> | <a style="color: #E19E18;" title="Slot Tergacor">Slot Tergacor</a> | <a style="color: #E19E18;" title="Live Game">Live Games</a></h2><div style="font-size: 18px;"><a style="color: #ffb400"><b>ZIENTOTO</b> - <font color="white">Situs togel online teraman dan terpercaya yang menyediakan pasaran togel online resmi dan terlengkap di indonesia, Kami akan menjamin kemudahan bertansaksi Deposit dan Withdraw member zientoto, Fairplay dan kejujuran serta kenyamanan dan keamanan member adalah prioritas utama kami Jadi Daftarkan diri anda sekarang juga di situs judi online terbaik di indonesia ZIENTOTO.</div></a></font></center>').insertAfter($('.inner-wrap'));
+    });
+</script>
