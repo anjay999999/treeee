@@ -1,0 +1,95 @@
+<style>
+    .buttons:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .inner-wrap {
+        background: rgb(43 43 43);
+        padding: 10px;
+    }
+
+    .buttonWrap {
+        line-height: 20px;
+        padding-bottom: 24px;
+        min-width: 43%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .button-blue,
+    .btn-green,
+    .button-orange,
+    .button-green,
+    .button-yellow {
+        background-image: linear-gradient(to right, #f0ad31, #dd1717);
+        box-shadow: none;
+        border: none;
+    }
+
+    .contactField {
+        height: 40px;
+        padding-left;
+        12px;
+        padding-right;
+        12px;
+        margin-bottom;
+        0px;
+        border-radius: 25px 5px;
+    }
+
+.panel-blue {
+        background: rgba(0, 0, 0, 0);
+        padding: 10px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 7px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .results {
+            border: solid 1px #952531 !important;
+            background-color: rgba(0, 0, 0, 0.55) !important;
+            width: 49% !important;
+            display: inline-block !important;
+            border-radius: 2px !important;
+            margin-bottom: 0 !important;
+            padding: 0 !important;
+        }
+
+        .pool-name {
+            color: #ffffff !important;
+            background: linear-gradient(to right, #f0ad31, #dd1717) !important;
+            width: 100% !important;
+            font-size: 13px !important;
+            font-weight: bold !important;
+            text-align: center !important;
+            border-bottom: 1px solid #952531 !important;
+        }
+
+        .pool-date {
+            font-size: 12px !important;
+            margin-left: 0 !important;
+            padding-top: 0 !important;
+            text-align: center !important;
+            display: block !important;
+            color: #fff !important;
+        }
+
+        .pool-result {
+            color: #ffffcc !important;
+            text-align: center !important;
+            width: 100% !important;
+            font-size: 36px !important;
+            line-height: 1.2 !important;
+            float: none !important;
+        }
+    }    
+
+</style>
